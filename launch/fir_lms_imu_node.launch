@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="fir_lms_imu_filter" type="fir_lms_imu_node" name="fir_lms_imu_node" output="screen">
+        <rosparam file="$(find fir_lms_imu_filter)/config/params.yaml" command="load" />
+    </node>
+</launch>

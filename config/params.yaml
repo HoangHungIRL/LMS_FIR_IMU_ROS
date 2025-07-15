@@ -1,0 +1,7 @@
+/fir_lms_imu_node:
+  num_taps: 10
+  cutoff_frequency: 25.0
+  sampling_rate: 100.0
+  learning_rate: 0.1
+  imu_topic: "/imu/data_newIMU"
+  filter_gyroscope: true
